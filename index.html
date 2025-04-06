@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <header>
+      <form>
+        <label for="city" class="visually-hidden">Enter city</label>
+        <input type="text" placeholder="City's name" id="city" required />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+    <main>
+      <section id="todays-weather">
+        <h1 id="current-location">Paris</h1>
+        <div class="current-weather">
+          <p>
+            <time datetime="2025-04-05T15:32">Saturday 15:32</time>, moderate
+            rain<br />
+            Humidity: <strong>87%</strong>, Wind:<strong>7.2km/h</strong>
+          </p>
+        </div>
+        <div class="current-temp">
+          <p>☀️ 14°C</p>
+        </div>
+      </section>
+      <section id="weekly-forecast">
+        <ul>
+          <li>
+            Sun 🌤️<br />
+            <strong> 14°C</strong> - 18°C
+          </li>
+          <li>
+            Mon 🌤️<br />
+            <strong> 14°C</strong> - 18°C
+          </li>
+          <li>
+            Tue 🌤️<br />
+            <strong> 14°C</strong> - 18°C
+          </li>
+          <li>
+            Wed 🌤️<br />
+            <strong> 14°C</strong> - 18°C
+          </li>
+          <li>
+            Thu 🌤️<br />
+            <strong> 14°C</strong> - 18°C
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      This project was coded by SylwiaFT and is on
+      <a href="https://github.com/sylwiafrank/weatherapp/blob/main/index.html"
+        >GitHub</a
+      >
+    </footer>
+  </body>
+</html>
